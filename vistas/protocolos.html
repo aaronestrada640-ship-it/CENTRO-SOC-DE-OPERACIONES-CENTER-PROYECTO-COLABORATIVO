@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protocolos de Respuesta - SOC CSIRT</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body>
+    <!-- Encabezado de la sección -->
+    <header>
+        <h1>Estudiante A: Protocolos de Respuesta ante Incidentes</h1>
+        <p><a href="../index.html">← Volver al Menú Principal</a></p>
+    </header>
+
+    <hr>
+
+    <!-- Contenido principal con listas anidadas paso a paso -->
+    <main>
+        <h2>Procedimientos Operativos de Emergencia</h2>
+        
+        <ol>
+            <!-- Incidente 1: Ransomware -->
+            <li>
+                <strong>Protocolo de Contención para Ransomware</strong>
+                <ul>
+                    <li><strong>Paso 1:</strong> Aislar inmediatamente el equipo o servidor afectado de la red corporativa (desconectar cable de red o Wi-Fi).</li>
+                    <li><strong>Paso 2:</strong> Notificar al equipo SOC/CSIRT y registrar la hora exacta del ataque.</li>
+                    <li><strong>Paso 3:</strong> Identificar la variante del ransomware analizando las extensiones de los archivos cifrados.</li>
+                    <li><strong>Paso 4:</strong> Proceder con la restauración de los datos limpios utilizando las últimas copias de seguridad (Backup).</li>
+                </ul>
+            </li>
+            
+            <br>
+
+            <!-- Incidente 2: Denegación de Servicio (DoS / DDoS) -->
+            <li>
+                <strong>Protocolo de Mitigación para Denegación de Servicio (DoS)</strong>
+                <ul>
+                    <li><strong>Paso 1:</strong> Monitorear el tráfico de red mediante herramientas de análisis enrutado para identificar la IP de origen del ataque.</li>
+                    <li><strong>Paso 2:</strong> Aplicar reglas de filtrado o listas de control de acceso (ACLs) en los routers/firewalls perimetrales para bloquear el tráfico malicioso.</li>
+                    <li><strong>Paso 3:</strong> Activar el servicio de mitigación contra DDoS con el proveedor de internet (ISP) si el volumen satura el ancho de banda.</li>
+                </ul>
+            </li>
+
+            <br>
+
+            <!-- Incidente 3: Filtración de Datos -->
+            <li>
+                <strong>Protocolo de Respuesta ante Filtración de Datos</strong>
+                <ul>
+                    <li><strong>Paso 1:</strong> Revocar de inmediato las credenciales de acceso y tokens activos de las cuentas comprometidas.</li>
+                    <li><strong>Paso 2:</strong> Analizar los registros (logs) del sistema para determinar qué información exacta fue sustraída.</li>
+                    <li><strong>Paso 3:</strong> Informar al oficial de seguridad y cumplir con el reporte de notificación a los involucrados según normativas corporativas.</li>
+                </ul>
+            </li>
+        </ol>
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>&copy; 2026 - Módulo de Protocolos de Seguridad | CSIRT</p>
+    </footer>
+</body>
+</html>

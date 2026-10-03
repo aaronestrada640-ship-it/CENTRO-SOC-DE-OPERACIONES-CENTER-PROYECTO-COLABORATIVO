@@ -1,0 +1,86 @@
+/* estilos.css - Tema SOC / Ciberseguridad */
+
+body {
+    background-color: #0d1117; /* Fondo oscuro tipo terminal */
+    color: #c9d1d9; /* Texto gris claro para no cansar la vista */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #161b22;
+    padding: 20px 40px;
+    text-align: center;
+    border-bottom: 3px solid #00ffcc; /* Acento cian neón */
+}
+
+header h1 {
+    color: #00ffcc;
+    margin: 0 0 10px 0;
+}
+
+header p {
+    margin: 0;
+    font-size: 1.1em;
+}
+
+h2, h3, strong {
+    color: #58a6ff; /* Acento azul claro para subtítulos y énfasis */
+}
+
+a {
+    color: #00ffcc;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+nav, main, section {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #161b22;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+ul, ol, dl {
+    margin-left: 20px;
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+dt {
+    color: #58a6ff;
+    margin-top: 15px;
+}
+
+dd {
+    margin-left: 20px;
+    margin-bottom: 15px;
+    color: #8b949e;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #30363d;
+    margin: 30px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #0d1117;
+    color: #484f58;
+    font-size: 0.9em;
+    border-top: 1px solid #30363d;
+}
